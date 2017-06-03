@@ -1,0 +1,264 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+.phone{
+    text-shadow: 1px 1px 2px #000, 0 0 1em green;
+    color: #fb0606;
+    font-size: 150%;
+}
+
+.bounce {
+  animation: bounce_2241 4.6s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes bounce_2241 {
+  0% { transform:translateY(0) }
+  4.34783% { transform:translateY(0) }
+  8.69565% { transform:translateY(0) }
+  17.3913% { transform:translateY(-15px) }
+  21.73913% { transform:translateY(0) }
+  26.08696% { transform:translateY(-15px) }
+  34.78261% { transform:translateY(0) }
+  100% { transform:translateY(0) }
+}
+.animationName {
+  animation: animationName_7914 3s ease-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes animationName_7914 {
+  0% {  transform: scale(1) }
+  8.33333% {  transform:scale(.9) rotate(-8deg) }
+  16.66667% {  transform:scale(.9) rotate(-8deg) }
+  25% {  transform:scale(1.3) rotate(8deg) }
+  33.33333% {  transform:scale(1.3) rotate(-8deg) }
+  41.66667% {  transform:scale(1.3) rotate(8deg) }
+  50% {  transform:scale(1.3) rotate(-8deg) }
+  58.33333% {  transform:scale(1.3) rotate(8deg) }
+  66.66667% {  transform:scale(1) rotate(0) }
+  100% {  transform:scale(1) rotate(0) }
+}
+.double-flash {
+  animation: double-flash_1225 5s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes double-flash_1225 {
+  0% { opacity:1 }
+  10% { opacity:0 }
+  20% { opacity:1 }
+  30% { opacity:0 }
+  40% { opacity:1 }
+  100% { opacity:1 }
+}
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+   
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+  
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 70%;
+}
+.img-small {
+    width: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.img-right {
+    width: 350px;
+    float: right;
+    margin: 10px;
+}
+.img-slide{
+      width: 750px;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.img-right {
+    width: 350px;
+    float: right;
+    margin: 10px;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 60px;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

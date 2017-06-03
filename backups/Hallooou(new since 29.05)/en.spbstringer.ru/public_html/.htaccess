@@ -1,0 +1,19 @@
+RewriteEngine On
+
+Redirect 301 /about.html http://spbstringer.ru
+Redirect 301 /contact.html http://spbstringer.ru
+Redirect 301 /blog.html http://spbstringer.ru
+
+RewriteRule ^index.html$ / [R=301,L] #дубль с index.html на /
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.spbstringer.ru [NC]
+RewriteRule ^(.*)$ http://spbstringer.ru/$1 [L,R=301]
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.xn--e1aazacajuqe0b.xn--p1ai [NC]
+RewriteRule ^(.*)$ http://spbstringer.ru/$1 [L,R=301]
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

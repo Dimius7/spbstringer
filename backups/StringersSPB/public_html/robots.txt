@@ -1,0 +1,9 @@
+User-agent: *
+ 
+Crawl-delay: 20
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
+Sitemap: http://spbstringer.ru/sitemap.xml
+Host: spbstringer.ru
